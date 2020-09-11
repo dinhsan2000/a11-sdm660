@@ -37,6 +37,7 @@ TARGET_BOARD_PLATFORM_GPU := qcom-adreno512
 # Allow Overriding commands
 BUILD_BROKEN_DUP_RULES := true
 BUILD_BROKEN_USES_BUILD_COPY_HEADERS := true
+BUILD_BROKEN_VINTF_PRODUCT_COPY_FILES := true
 
 # Architecture
 TARGET_ARCH := arm64
