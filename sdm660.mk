@@ -84,6 +84,13 @@ PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.vulkan.version-1_0_3.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.vulkan.version-1_0_3.xml \
     frameworks/native/data/etc/android.hardware.ethernet.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.ethernet.xml
 
+# A11 packages
+PRODUCT_HOST_PACKAGES += \
+    aapt2 \
+    signapk \
+    avbtool \
+    brotli
+
 # Audio
 PRODUCT_PACKAGES += \
     android.hardware.audio@6.0-impl \
